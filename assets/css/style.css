@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+    width: 960px;
+}
+
+.bodycontent {
+background-image: url("assets\Images\grey_wash_wall_@2X.png");
+border: 1px solid #777777;
+}
+
+header {
+   
+padding: 20px;
+float: left;
+width: 10%;
+margin-bottom: 10px;
+background: #4aaaa5;
+border: 1px solid #cccccc
+
+}
+
+.intruction{
+padding: 20px;
+float: right;
+width: 960px
+margin-bottom: 20px;
+color: #777777
+}
+
+h1 {
+padding: 20px;
+margin-bottom: 10px;
+color: #4aaaa5;
+clear: both;
+}
+
+hr {
+    clear: both;
+}
