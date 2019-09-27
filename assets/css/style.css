@@ -8,16 +8,20 @@
 
 } */
 
-.bodycontent {
-    margin: 5px 20px;
-    border: 1px solid #777777;
-
-}
+/* .bodycontent {
+    background-image: url(../Images/grey_wash_wall_@2X.png);
+} */
 
 .container1 {
-    /* background-image: url(assets/Images/grey_wash_wall_@2X.jpg);   */
-    background-repeat: no-repeat;
+    background-image: url(../Images/cloth.png);  
+    background-repeat: repeat;
+    margin-top: 43px;
+    margin-left: 5px;
     border: 1px solid #cccccc
+}
+.toppart{
+    margin-left: 260px;
+    margin-right:260px;
 }
 
 header {
@@ -26,11 +30,12 @@ header {
     color: white;
     text-decoration-color: white;
     padding: 15px;
-    margin: center;
+    /* margin-left: 260px; */
     float: left;
     width: 250px;
     background: #4aaaa5;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
+    text-align: center;
 }
 
 }
@@ -50,16 +55,16 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 
 }
 
 li a{
     display: block;
     color: #aa9498; 
+    text-decoration: none;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 15px;
     font-family: "Georgia", Times, Times New Roman, serif;
 }
@@ -78,20 +83,25 @@ hr {
     clear: both;
     width: 100%;
 }
-.image {
+.clearfix {
+    overflow: auto;
+}
+img {
     float: left;
+    /* overflow: auto; */
     margin-right: 15px;
     margin-bottom: 15px;
 }
 
-.mainbody {
+.bodycontent {
     /* overflow: auto; */
     padding: 15px;
-    background-image: url(../Images/grey_wash_wall_@2X.png);
+    background-color: white;
     margin-left: 260px;
     margin-right:260px;
     margin-top: 30px;
     margin-bottom: 80px;
+    /* border: 5px solid blue; */
 }
 
 p {
@@ -102,6 +112,7 @@ p {
 }
 .paragraph {
     padding: 15px;
+    /* clear: auto; */
     /* background-image: url(../Images/grey_wash_wall_@2X.png); */
 }
 
@@ -109,6 +120,7 @@ p {
 footer {
     font-family: "Georgia", Times, Times New Roman, serif;
     border-top: 8px solid #4aaaa5;
+    margin-left: 5px;
     background-color: #666666;
     height: 30px;
     text-align: center;
