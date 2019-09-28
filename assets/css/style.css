@@ -42,7 +42,7 @@ header {
 
 .intruction{
     padding: 20px;
-    float: right;
+    /* float: right; */
     margin: 20px;
     color: #777777;
 }
@@ -128,3 +128,79 @@ footer {
     left: 0 ; right: 0; bottom: 0; */
 
 }
+
+.contactbox {
+    background-color: white; 
+    background-repeat: repeat;
+    margin-left: 260px;
+    margin-right:260px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    
+
+}
+
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0
+    box-sizing: border-box;
+}
+
+#namesize, #emailsize, #messagesize {
+    font-size: 14px;
+    padding: 10px;
+}
+input[type=submit] {
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+
+.portfoliobox {
+    background-color: white; 
+    background-repeat: repeat;
+    margin-left: 260px;
+    margin-right:260px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+
+.imagecontainer {
+    position: relative;
+    width: 150px;
+    float: left;
+    margin: 20px;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    background-color: green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+
+  .imagetext {
+      line-height: 0px;
+      font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+
+  }
