@@ -1,9 +1,9 @@
 # Basic-Portfolio
-# Create the templete for my "About", "Portfolio" and "Contact page"
+### Create the templete for my "About", "Portfolio" and "Contact page"
  - I will set the three pages have the save Nav Bar, main background image and footer
  - I make 2 containers for the page templete. One is my name and nav bar, then other one is the About me, image and the paragraph.
 
-#Technology:
+### Technology:
  - HTML
  - CSS
 
