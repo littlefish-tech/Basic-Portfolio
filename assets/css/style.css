@@ -87,10 +87,11 @@ hr {
     overflow: auto;
 }
 img {
+    margin-top: 18px;
     float: left;
     /* overflow: auto; */
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-right: 10px;
+    /* margin-bottom: 15px; */
 }
 
 .bodycontent {
@@ -112,7 +113,7 @@ p {
 }
 .paragraph {
     padding: 15px;
-    /* clear: auto; */
+    clear: auto;
     /* background-image: url(../Images/grey_wash_wall_@2X.png); */
 }
 
