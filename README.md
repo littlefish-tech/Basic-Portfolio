@@ -17,6 +17,9 @@ One challenge for me is to find the right source of my main backgound image:
     border: 1px solid #cccccc
 }
 ```
+
+Please find the preview of my Portfolio
+
 ![](assets/Images/About_page.png)
 ![](assets/Images/Contact_page.png)
 ![](assets/Images/Portfolio_page.png)
